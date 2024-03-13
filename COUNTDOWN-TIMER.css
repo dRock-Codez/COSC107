@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+ body{
+    display: block;
+    justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: rgb(143, 176, 192);
+   line-height: 1.3;
+ }
+
+
+ .image{
+    margin: 100px auto;
+    width: 80%;
+ }
+ 
+ img{
+    float: left;
+    max-width: 105%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px rgb(188, 204, 220);
+    margin-right: 29px;
+    background: cover auto repeat border-box scroll;
+    background-origin: padding-box;
+    position: relative;
+    top: -38px;
+    left: -26px;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.single-line{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.text h1{
+    flex-grow: 1;
+    line-height:55px;
+    text-decoration: none;
+    font-size:16px;
+    font-weight: bolder;
+    padding: 5px;
+    color: #0c588f;
+    letter-spacing: 2px;
+    margin-left:-32px;
+    margin-top:-5px;
+    top:-20px;
+    margin-bottom:-20px;
+    margin-right:28px;
+    font-family:Calibri;
+}
+
+.text h3{
+    margin-left: -32px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    display: block;
+    color:rgb(16, 42, 66)
+    
+}
+
+.Giveaway{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.text p{
+    margin-left: -33px;
+    font-size: 15px;
+    color: #48647f;
+    letter-spacing: 2px;
+}
+
+.dropdown {
+    display: none;
+    padding: 10px;
+    margin-top: -19px;
+}
+
+.dropdown-button {
+    padding: 10px;
+    margin-top: -40px;
+    background-color: #cf9b9b;
+    
+}
+
+.Countdown{
+    width: 105px;
+    height: 90px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(16, 42, 66);
+    border-radius: 15px;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    line-height: 90px;
+    font-size: 27px;
+    margin-top: 8px;
+    margin-left: 10px;
+    align-items: center;
+}
+ 
+#DAYS{
+   font-family: "Open Sans", sans-serif;
+    color: rgb(172, 95, 73);
+}
+
+#HOURS{
+    color: rgb(172, 95, 73);
+}
+
+#MINS{
+    color: rgb(172, 95, 73);
+}
+
+#SECS{
+    color: rgb(172, 95, 73);
+}
